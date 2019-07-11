@@ -1,0 +1,17 @@
+{
+  "name": "stackmern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "npm-run-all -p -l start:*",
+    "start:server": "cd server && node server.js",
+    "start:client": "cd client && yarn start"
+  },
+  "author": "Agnieszka Matyja",
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "4.1.5"
+  }
+}
